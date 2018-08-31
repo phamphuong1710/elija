@@ -1,0 +1,120 @@
+@media screen and(max-width:1024px) {
+	.more{
+		.text{
+			p:after,p:before{
+				@include before_after(35%);
+			}
+		}
+	}
+}
+@media screen and (max-width: 980px) {
+	.more{
+		.text{
+			text-align: center;
+			p:after,p:before{
+				display: none;
+			}
+		}
+	}
+	.caption{
+		width: 100%!important;
+	}
+	// Navigation
+	.navbar-nav{
+		display: block!important;
+		
+	}
+	.navbar-collapse{
+		height: 200px!important;
+		overflow: scroll;
+	}
+	// end Navigation
+	// about Section
+	.about{
+		.number{
+			span{
+				font-size: 80px!important;
+			}
+		}
+	}
+	// pricing
+		.sing_up,.acti{
+			clear: both;
+			width: 100%!important;
+		}
+	// end pricing
+	// contact
+	.contact{
+		.send{
+			width: 80%!important;
+		}
+	}
+	// end contact
+}
+@media screen and (max-width: 767px) {
+	footer{
+		.connect{
+			ul{
+				text-align: left!important;
+				li{
+					width: 19%!important;
+				}
+			}
+		}
+		
+	}
+	
+}
+@media screen and (max-width: 480px) {
+	
+	.carousel-caption{
+		h1{
+			font-size: 24px;
+		}
+		h3{
+			font-size: 20px;
+		}
+		button{
+			font-size: 20px!important;
+		}
+		.bold{
+			font-size: 40px!important;
+
+		}
+		.address{
+			font-size: 30px!important;
+		}
+		.caption{
+			width: 100%!important;
+			ul{
+				li{
+					font-size: 16px!important;
+					display: block!important;
+				}
+				.call:after{
+					display: none!important;
+				}
+			}
+		}
+	}
+	.pricing{
+		.sing_up,.acti{
+			.price{
+				padding-top:50px;
+				h2{
+					margin-top: 55px;
+				}
+			}
+			
+		}
+	}
+}
+@media screen and (max-width: 320px) {
+	.carousel-caption{
+		.caption{
+			ul{
+				margin-top: 25px;
+			}
+		}
+	}
+}

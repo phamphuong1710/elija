@@ -1,0 +1,145 @@
+
+body{
+	position: relative;
+}
+#navbar{
+	background-color: $white;
+	z-index: 1;
+}
+.sticky{
+	position: fixed;
+	top:0;
+	width: 100%;
+}
+.sticky + .about,.sticky + .team,.sticky + .services,.sticky + .portfolio,.sticky + .pricing, .sticky + .contact,  {
+  padding-top: 180px!important;
+}
+ 
+p{
+	font-size: 16px;
+	font-family: $font-content, light;
+	font-weight: 300;
+}
+h2,h3{
+	color:$gray2;
+}
+.title{
+	font-family: $font-title;
+}
+.actives a{
+	color: $oranges!important;
+}
+.actives:after{
+	content:"";
+	width: 100%;
+	height: 2px;
+	background-color: $oranges;
+	display: block;
+	margin-top: 23px;
+}
+.slug{
+	margin-bottom: 80px;
+	position: relative;
+	text-align: center;
+	h2{
+		font-weight: 400;
+		margin: 40px 5%;
+		span{
+			color: $oranges;
+		}
+	}
+}
+.content{
+	position: relative;
+	.img{
+		text-align: center;
+	}
+}
+.team,.services,.portfolio,.pricing,.contact{
+	padding-top: 100px;
+	.content{
+		@include content_bg();
+	}
+}
+.more{
+	margin-top: 70px;
+	width: 100%;
+	.text{
+		
+		color: $gray3;
+		p:after,p:before{
+			@include before_after(38%);
+		}
+		
+	}
+}	
+
+.slide{
+	.carousel-caption{
+		font-family: $font-title;
+		.fa{
+			font-size: 36px;
+			color: $oranges;
+		}
+		h1{
+			span{
+				color: $oranges;
+			}
+		}
+		
+		h3{
+			color: $white;
+
+		}
+		small{
+			color: $oranges1;
+			font-size: 14px;
+		}
+		h1,h3{
+			font-weight: 300;
+		}
+	}
+	.carousel-item{
+		
+		img{
+			height: 100%;
+		}
+	}
+}
+.acti{
+	background-image: url(../image/bgacti.png);
+	width: 41% !important;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 873px;
+}
+.acti .cost{
+	background-color: rgba(255,255,254,0)!important;
+}
+.acti {
+	.price{
+		h2{
+			color: $white!important;
+		}
+		span{
+			color: $oranges!important;
+			background-color: $white!important;
+		}
+	}
+	ul{
+		background-color: rgba(255,255,207,0.4)!important;
+		width:87.5% !important;
+		margin: 0 auto;
+		li{
+			border-bottom: 1px solid $oranges!important;
+		}
+	}
+	form{
+		button{
+			background-color: $white !important;
+			color: $oranges!important;
+
+		}
+	}
+	
+}

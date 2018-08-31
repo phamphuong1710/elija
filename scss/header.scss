@@ -1,0 +1,45 @@
+// Header
+header{
+	background-image: url(../image/headbg.png);
+	height: 660px;
+	position: relative;
+	color: $white;
+	text-align: center;
+	.logo{
+		height: 200px;
+		background-image: url(../image/bgtitle.png);
+		position: absolute;
+	    top: 100px;
+	    width: 100%;
+	    font-size: 100px;
+	   	padding-top:25px;
+		
+	}
+	.short_description {
+		  font-family: $font-content;
+		  text-align: center;
+		  position: absolute;
+		  top: 365px;
+		  width: 644px;
+		  width: 100%;
+		  h1{
+		  	padding:0 20%;
+		  	span{
+		  		background-color: $oranges;
+   			 	padding: 0 10px;
+		  	}
+		  }
+		}
+	.btn {
+	  font-size: 36px;
+	  text-align: center;
+	  position: absolute;
+	  top: 524.006px;
+	 	a{
+	 		color: $white;
+	 	}
+	}
+}
+// End header
+
+

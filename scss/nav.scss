@@ -1,0 +1,51 @@
+nav{
+	.navbar-nav{
+		height: 80px;
+		
+	}
+	border-bottom: 2px solid $gray3;
+		.logo {
+			margin: 10px 0;
+			width: 100%;
+			a{
+				color: $oranges;
+				font-size: 36px;
+			}
+			button{
+				float: right;
+				margin-top: 15px;
+			}
+		}
+		ul{
+			height: 80px;
+			float: right;
+			width: 100%;
+			li{
+				margin-left:20px;
+				margin-top: 20px;
+				a{
+					color: $gray2;
+					font-family: $font-title;
+					font-size: 18px;
+				}
+				button{
+					color: $gray3!important;
+					background-color:$white;
+					border: none;
+					font-size: 18px;
+					padding: 10px 0;
+				}
+			}
+		}
+	
+}
+@media screen and (max-width: 975px) {
+	.navbar-nav{
+		display: block!important;
+		
+	}
+	.navbar-collapse{
+			height: 200px!important;
+			overflow: scroll;
+		}
+}

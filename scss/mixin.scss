@@ -1,0 +1,19 @@
+@mixin title(){
+  font-size: 60px;
+  font-family: "Oswald";
+  text-align: center;
+
+}
+@mixin before_after($with){
+	width: $with;
+	height: 1px;
+	background-color: $gray3;
+	 content: " ";
+	 display: inline-block;
+	 margin: 5px;
+}
+@mixin content_bg(){
+	background-image: url(../image/bgcontent.png);
+	background-repeat: no-repeat ;
+	background-color: $gray1;
+}
