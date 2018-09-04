@@ -1,10 +1,4 @@
 nav{
-	
-	.navbar-nav{
-		height: 80px;
-		
-	}
-
 	border-bottom: 2px solid $gray3;
 		.logo {
 			margin: 10px 0;
@@ -19,23 +13,28 @@ nav{
 			}
 		}
 		ul{
-			height: 80px;
 			float: right;
 			width: 100%;
 			li{
 				margin-left:20px;
-				margin-top: 20px;
+				height: 80px;
 				a{
 					color: $gray2;
 					font-family: $font-title;
 					font-size: 18px;
+					height: 100%;
+					
+				}
+				a:hover{
+					color: $oranges;
+					border-bottom: 2px solid $oranges;
 				}
 				button{
 					color: $gray3!important;
 					background-color:$white;
 					border: none;
 					font-size: 18px;
-					padding: 10px 0;
+					padding: 1.5rem 1rem;
 				}
 			}
 		}
@@ -44,14 +43,22 @@ nav{
 .bg-light {
 	    background-color: $white !important;
 	}
-.navbar-light .navbar-nav .nav-link.active{
-	color: $oranges;
+.navbar-light {
+	.navbar-nav {
+		.nav-link.active{
+			color: $oranges;
+			border-bottom: 2px solid $oranges;
+		}
+		.nav-link:focus{
+			color: $oranges;
+		}
+		.nav-link:hover{
+			color: $oranges;
+		}
+	}
+	
 }
-.navbar-light .navbar-nav .nav-link.active:after{
-	content:"";
-	width: 100%;
-	height: 2px;
-	background-color: $oranges;
-	display: block;
-	margin-top: 33px;
+	
+.nav-link {
+	padding: 1.5rem 1rem;
 }

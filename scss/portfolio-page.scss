@@ -1,0 +1,48 @@
+.portfolio{
+	.list{
+		.current1{
+			@extend .current;
+			padding: 15px 0;
+			.hover1{
+				@extend .hover;
+				top:15px;
+				bottom: 15px;
+			}
+		}
+		
+	}
+	.load_all{
+		text-align: center;
+		margin: 40px auto 100px auto;
+		button{
+			background-color: $oranges;
+			color: $white;
+			font-size: 24px;
+			font-family: $font-content;
+			padding: 5px 20px;
+			border: none;
+			border-radius: 20px;
+			margin-right: 20px;
+			margin-bottom: 20px;
+			font-weight: 300;
+		}
+	}
+	#image-portfolio{
+		.carousel-item{
+			height: 352px;
+		
+			button{
+				font-size: 24px;
+				background-color: $oranges;
+				color: $white;
+				padding: 10px 20px;
+				border: none;
+				.fa{
+					color: $white;
+					font-size: 24px;
+				}
+			}
+		}
+	}
+}
+	

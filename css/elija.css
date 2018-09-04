@@ -1,0 +1,1477 @@
+/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+  font-weight: 300px;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1, h2, h3 {
+  font-weight: 400;
+}
+
+h4, h5 {
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 20px 0;
+}
+
+h3 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+h2 {
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+h4 {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+h5 {
+  font-size: 14px;
+  margin: 20px 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -5px;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type="checkbox"],
+[type="radio"] {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+body {
+  position: relative;
+}
+
+#navbar {
+  background-color: #fff !important;
+  z-index: 1;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .about {
+  padding-top: 180px;
+}
+
+p {
+  font-size: 16px;
+  font-family: Lato, light;
+  font-weight: 300;
+}
+
+h2, h3 {
+  color: #666666;
+}
+
+.title {
+  font-family: Oswald;
+}
+
+.navbar {
+  padding: 0 1em;
+}
+
+.slug {
+  margin-bottom: 80px;
+  position: relative;
+  text-align: center;
+}
+
+.slug h2 {
+  font-weight: 400;
+  margin: 40px 5%;
+}
+
+.slug h2 span {
+  color: #ff9933;
+}
+
+.slug .sub {
+  font-weight: 400;
+  font-family: Lato;
+}
+
+.content {
+  position: relative;
+}
+
+.content .img {
+  text-align: center;
+}
+
+.team, .services, .portfolio, .pricing, .contact {
+  padding-top: 100px;
+}
+
+.team .content, .services .content, .portfolio .content, .pricing .content, .contact .content {
+  background-image: url(../image/bgcontent.png);
+  background-repeat: no-repeat;
+  background-color: #f4f4f4;
+}
+
+.more {
+  margin-top: 70px;
+  width: 100%;
+}
+
+.more .text {
+  color: #cccccc;
+}
+
+.more .text p:after, .more .text p:before {
+  width: 38%;
+  height: 1px;
+  background-color: #cccccc;
+  content: " ";
+  display: inline-block;
+  margin: 5px;
+}
+
+.slide .carousel-caption {
+  font-family: Oswald;
+}
+
+.slide .carousel-caption .fa {
+  font-size: 36px;
+  color: #ff9933;
+}
+
+.slide .carousel-caption h1 span {
+  color: #ff9933;
+}
+
+.slide .carousel-caption h3 {
+  color: #fff;
+}
+
+.slide .carousel-caption small {
+  color: #cc9966;
+  font-size: 14px;
+}
+
+.slide .carousel-caption h1, .slide .carousel-caption h3 {
+  font-weight: 300;
+}
+
+.slide .carousel-item img {
+  height: 100%;
+}
+
+.acti {
+  background-image: url(../image/bgacti.png);
+  width: 41% !important;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 873px;
+}
+
+.acti .cost {
+  background-color: rgba(255, 255, 254, 0) !important;
+}
+
+.acti .price h2 {
+  color: #fff !important;
+}
+
+.acti .price span {
+  color: #ff9933 !important;
+  background-color: #fff !important;
+}
+
+.acti ul {
+  background-color: rgba(255, 255, 207, 0.4) !important;
+  width: 87.5% !important;
+  margin: 0 auto;
+}
+
+.acti ul li {
+  border-bottom: 1px solid #ff9933 !important;
+}
+
+.acti form button {
+  background-color: #fff !important;
+  color: #ff9933 !important;
+}
+
+.tooltip-inner {
+  background-color: #ddd;
+  border-radius: 0px;
+}
+
+.tooltip.bs-tooltip-auto[x-placement^=bottom] .arrow::before, .tooltip.bs-tooltip-bottom .arrow::before {
+  margin-left: -3px;
+  content: "";
+  border-width: 0 5px 5px;
+  border-bottom-color: #ddd;
+}
+
+header {
+  background-image: url(../image/headbg.png);
+  height: 660px;
+  position: relative;
+  color: #fff;
+  text-align: center;
+}
+
+header .logo {
+  height: 200px;
+  background-image: url(../image/bgtitle.png);
+  position: absolute;
+  top: 100px;
+  width: 100%;
+  font-size: 100px;
+  padding-top: 25px;
+}
+
+header .short_description {
+  font-family: Lato;
+  text-align: center;
+  position: absolute;
+  top: 365px;
+  width: 644px;
+  width: 100%;
+}
+
+header .short_description h1 {
+  padding: 0 20%;
+}
+
+header .short_description h1 span {
+  background-color: #ff9933;
+  padding: 0 10px;
+}
+
+header .btn {
+  font-size: 36px;
+  text-align: center;
+  position: absolute;
+  top: 524.006px;
+}
+
+header .btn a {
+  color: #fff;
+}
+
+nav {
+  border-bottom: 2px solid #cccccc;
+}
+
+nav .logo {
+  margin: 10px 0;
+  width: 100%;
+}
+
+nav .logo a {
+  color: #ff9933;
+  font-size: 36px;
+}
+
+nav .logo button {
+  float: right;
+  margin-top: 15px;
+}
+
+nav ul {
+  float: right;
+  width: 100%;
+}
+
+nav ul li {
+  margin-left: 20px;
+  height: 80px;
+}
+
+nav ul li a {
+  color: #666666;
+  font-family: Oswald;
+  font-size: 18px;
+  height: 100%;
+}
+
+nav ul li a:hover {
+  color: #ff9933;
+  border-bottom: 2px solid #ff9933;
+}
+
+nav ul li button {
+  color: #cccccc !important;
+  background-color: #fff;
+  border: none;
+  font-size: 18px;
+  padding: 1.5rem 1rem;
+}
+
+.bg-light {
+  background-color: #fff !important;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: #ff9933;
+  border-bottom: 2px solid #ff9933;
+}
+
+.navbar-light .navbar-nav .nav-link:focus {
+  color: #ff9933;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #ff9933;
+}
+
+.nav-link {
+  padding: 1.5rem 1rem;
+}
+
+.about {
+  margin-top: 80px;
+}
+
+.about .content {
+  background-image: url(../image/bgcontent.png);
+  background-repeat: no-repeat;
+  background-color: #f4f4f4;
+}
+
+.about .content .item {
+  color: #666666;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.about .content .item h2 {
+  color: #666666;
+}
+
+.about .content .item p {
+  color: #666666;
+  padding: 0 10px;
+}
+
+.about .content .progress {
+  height: 40px !important;
+  background-color: #666666 !important;
+  border-radius: 0px;
+  margin-bottom: 20px;
+}
+
+.about .content .progress .progress-bar {
+  background-color: #ff9933;
+}
+
+.about .content .progress .progress-bar .left {
+  float: left;
+  padding-left: 20px;
+}
+
+.about .content .progress .progress-bar .right {
+  float: right;
+  padding-right: 20px;
+}
+
+.about .content .about-left, .about .content .about-right {
+  margin-top: 40px;
+  font-family: Lato, light;
+}
+
+.about .content .about-left {
+  color: #666666;
+}
+
+.about .content .about-right {
+  padding-top: 10px;
+}
+
+.about .content .number {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.about .content .number h1 {
+  color: #666666;
+}
+
+.about .content .number span {
+  font-size: 60px;
+  color: #ff9933;
+}
+
+.about .content .number p {
+  color: #666666;
+}
+
+.about .content .slide .carousel-item {
+  height: 552px;
+}
+
+.about .content .slide .carousel-item img {
+  height: 100%;
+}
+
+.about .content .slide .carousel-caption {
+  top: 100px;
+  width: 58.666667%;
+  margin: 0 auto;
+}
+
+.about .content .slide .carousel-caption .fa {
+  font-size: 36px;
+  color: #ff9933;
+}
+
+.about .content .slide .carousel-caption h3 {
+  color: #fff;
+}
+
+.about .content .slide .carousel-item {
+  height: 500px;
+}
+
+.team .content {
+  background-image: url(../image/bgcontent.png);
+  background-repeat: no-repeat;
+  background-color: #f4f4f4;
+}
+
+.team .content .card {
+  margin-top: 60px;
+}
+
+.team .content .card .profile {
+  position: relative;
+}
+
+.team .content .card .profile .image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  -webkit-transition: .5s ease;
+  -o-transition: .5s ease;
+  transition: .5s ease;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.team .content .card .profile .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: .5s ease;
+  -o-transition: .5s ease;
+  transition: .5s ease;
+  text-align: center;
+  background-color: rgba(255, 153, 51, 0.4);
+}
+
+.team .content .card .profile .text {
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  padding: 16px 32px;
+  position: absolute;
+  top: 40%;
+  width: 100%;
+}
+
+.team .content .card .profile .text a {
+  color: #fff;
+}
+
+.team .content .card .profile:hover .overlay {
+  opacity: 1;
+}
+
+.team .content .card .card-body .card-title .left {
+  float: left;
+  color: #666666;
+}
+
+.team .content .card .card-body .card-title .right {
+  float: right;
+  color: #afb6ba;
+}
+
+.team .content .card .card-body .card-text {
+  clear: both;
+  color: #afb6ba;
+}
+
+.team .content .client {
+  text-align: center;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.team .content .client h1 {
+  color: #666666;
+}
+
+.team .content .client ul {
+  list-style-type: none;
+  margin-bottom: 50px;
+  padding-left: 0px;
+}
+
+.team .content .client ul li {
+  display: inline-block;
+  height: 100px;
+  background-repeat: no-repeat;
+}
+
+.team .content .client ul li img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.team .content .client li:hover img {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+
+.team .content .carousel-caption {
+  top: 20%;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.team .content .carousel-caption h3 {
+  margin-bottom: 0px !important;
+}
+
+.team .content .carousel-indicators {
+  bottom: 110px;
+}
+
+.team .content .carousel-indicators li {
+  width: 10px !important;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.team .content .carousel-item {
+  height: 552px;
+}
+
+.services .item1 {
+  margin-top: 35px;
+}
+
+.services .item1 .icon {
+  float: left;
+  margin-right: 25px;
+}
+
+.services .item1 .item-content h3 {
+  padding-top: 13px;
+}
+
+.services .more .text p:after, .services .more .text p:before {
+  width: 37%;
+  height: 1px;
+  background-color: #cccccc;
+  content: " ";
+  display: inline-block;
+  margin: 5px;
+}
+
+.services .say {
+  text-align: center;
+  width: 100%;
+}
+
+.services .say h1 {
+  color: #666666;
+}
+
+.services .say .user {
+  clear: both;
+  margin-bottom: 100px;
+}
+
+.services .say .talk {
+  position: relative;
+  background-color: #fff;
+}
+
+.services .say .talk p {
+  font-family: "Open Sans", light;
+  color: #282828;
+  font-style: italic;
+  padding: 35px 20px;
+  font-weight: 300;
+}
+
+.services .say .talk:after {
+  content: "";
+  position: absolute;
+  border-width: 20px;
+  border-style: solid;
+  border-color: #fff transparent transparent transparent;
+  top: 100%;
+  left: 20%;
+}
+
+.services .say .info {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.services .say .info .avarta {
+  float: left;
+  width: 55%;
+}
+
+.services .say .info .name {
+  float: left;
+  width: 45%;
+  text-align: left;
+}
+
+.services .say .info .name p {
+  font-family: "Myriad Pro";
+}
+
+.services .say .info .name small {
+  font-size: 12px;
+  font-family: "Open Sans";
+  font-style: italic;
+  color: #999;
+}
+
+.services .slide .carousel-caption {
+  top: 16%;
+}
+
+.services .slide .carousel-caption button {
+  font-size: 24px;
+  background-color: #ff9933;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+}
+
+.services .slide .carousel-caption button .fa {
+  color: #fff;
+  font-size: 24px;
+}
+
+.services .slide .carousel-item {
+  height: 352px;
+}
+
+.portfolio .button-group {
+  margin-top: 60px;
+  margin-bottom: 40px;
+  text-align: center;
+  width: 100%;
+}
+
+.portfolio .button-group .button {
+  background-color: #ff9933;
+  color: #fff;
+  font-size: 24px;
+  font-family: Lato;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+
+.portfolio .list img {
+  width: 100%;
+  height: 268px;
+}
+
+.portfolio .list .col-md-3 {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.portfolio .list .current, .portfolio .list .current1 {
+  position: relative;
+  height: 268px;
+}
+
+.portfolio .list .current .image, .portfolio .list .current1 .image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: .5s ease;
+  -o-transition: .5s ease;
+  transition: .5s ease;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.portfolio .list .current .hover, .portfolio .list .current1 .hover, .portfolio .list .current1 .hover1 {
+  opacity: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(255, 153, 51, 0.8);
+  -webkit-transition: .5s ease;
+  -o-transition: .5s ease;
+  transition: .5s ease;
+  text-align: center;
+  position: absolute;
+}
+
+.portfolio .list .current .text, .portfolio .list .current1 .text {
+  color: #fff;
+  margin-top: 90px;
+}
+
+.portfolio .list .current .text a, .portfolio .list .current1 .text a {
+  color: #fff;
+}
+
+.portfolio .list .current .text h4, .portfolio .list .current1 .text h4 {
+  margin-bottom: 0px !important;
+}
+
+.portfolio .list .current .text h4:after, .portfolio .list .current1 .text h4:after {
+  content: "";
+  width: 100px;
+  height: 2px;
+  background-color: #fff;
+  display: block;
+  margin: 10px auto;
+}
+
+.portfolio .list .current:hover .hover, .portfolio .list .current1:hover .hover, .portfolio .list .current:hover .current1 .hover1, .portfolio .list .current1 .current:hover .hover1, .portfolio .list .current1:hover .hover1 {
+  opacity: 1;
+}
+
+.pricing .sing_up {
+  width: 29.5%;
+  margin-top: 65px;
+  margin-bottom: 75px;
+  float: left;
+}
+
+.pricing .cost {
+  background-color: #fff;
+}
+
+.pricing .basic, .pricing .premium, .pricing .standard {
+  height: 760px;
+  margin-bottom: 100px;
+  text-align: center;
+  margin: 50px 0;
+}
+
+.pricing .basic .price, .pricing .premium .price, .pricing .standard .price {
+  font-family: "Myriad Pro";
+  font-weight: 300;
+  padding-top: 100px;
+}
+
+.pricing .basic .price span, .pricing .premium .price span, .pricing .standard .price span {
+  padding: 40px 35px;
+  background-color: #566065;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 48px;
+}
+
+.pricing .basic .price h2, .pricing .premium .price h2, .pricing .standard .price h2 {
+  padding-top: 80px;
+}
+
+.pricing .basic ul, .pricing .premium ul, .pricing .standard ul {
+  list-style-type: none;
+  width: 100%;
+  padding-left: 0;
+  background-color: #f4f4f4;
+  margin-top: 30px;
+}
+
+.pricing .basic ul li, .pricing .premium ul li, .pricing .standard ul li {
+  padding: 10px 0;
+  border-bottom: 1px solid #fff;
+  font-family: "Open Sans";
+  color: #333333;
+}
+
+.pricing .basic ul li i, .pricing .premium ul li i, .pricing .standard ul li i {
+  padding-right: 10px;
+}
+
+.pricing .basic form, .pricing .premium form, .pricing .standard form {
+  margin-top: 50px;
+}
+
+.pricing .basic form button, .pricing .premium form button, .pricing .standard form button {
+  background-color: #566065;
+  border: none;
+  padding: 10px 30px;
+  color: #fff;
+  font-size: 18px;
+}
+
+.pricing .basic form button i, .pricing .premium form button i, .pricing .standard form button i {
+  padding-right: 10px;
+}
+
+.pricing .slide .carousel-caption {
+  top: 10%;
+}
+
+.pricing .slide .carousel-caption .title {
+  margin-bottom: 30px;
+}
+
+.pricing .slide .carousel-caption .bold {
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.pricing .slide .carousel-caption .address {
+  clear: both;
+  font-size: 48px;
+  font-weight: 300;
+}
+
+.pricing .slide .carousel-caption ul {
+  list-style-type: none;
+  margin-top: 60px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 0;
+}
+
+.pricing .slide .carousel-caption ul li {
+  display: inline;
+  font-size: 30px;
+}
+
+.pricing .slide .carousel-caption ul .call:after {
+  content: "";
+  height: 5px;
+  display: inline-block;
+  background-color: #f4f4f4;
+  border-radius: 50%;
+  width: 5px;
+  margin: 10px 0;
+}
+
+.pricing .slide .carousel-caption .caption {
+  width: 66.67%;
+  margin: 0 auto;
+}
+
+.pricing .slide .carousel-item {
+  height: 552px;
+}
+
+.contact .content {
+  background-image: url("../image/map.png");
+  height: 864px;
+}
+
+.contact .content .send {
+  margin: 110px auto;
+  background-color: #fff;
+  height: 550px;
+  width: 50%;
+}
+
+.contact .content .send form {
+  margin: 0 auto;
+  width: 66.666667%;
+  padding: 70px 0;
+}
+
+.contact .content .send form input {
+  width: 100%;
+  height: 50px;
+  margin-botton: 20px;
+  padding: 0 30px;
+  font-family: Lato;
+  color: #cccccc;
+  background-color: #f6f6f6;
+  border: 1px solid #eee;
+  border-radius: 3px;
+}
+
+.contact .content .send form textarea {
+  width: 100%;
+  height: 130px;
+  padding: 10px 30px;
+  font-family: Lato;
+  color: #cccccc;
+  background-color: #f6f6f6;
+  border: 1px solid #eee;
+  border-radius: 3px;
+}
+
+.contact .content .send form button {
+  width: 100%;
+  background-color: #ff9933;
+  border: none;
+  height: 50px;
+  color: #fff;
+  font-family: Oswald;
+  font-weight: 300px;
+}
+
+footer {
+  background-color: #333333;
+}
+
+footer h5, footer h4 {
+  color: #fff;
+}
+
+footer p {
+  color: #999;
+  line-height: 1.5;
+}
+
+footer ul {
+  list-style-type: none;
+  padding-left: 0;
+  padding-top: 27px;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+footer a {
+  color: #999;
+}
+
+footer .information {
+  padding-bottom: 50px;
+  padding-top: 100px;
+  border-bottom: 1px solid #272727;
+}
+
+footer .information .recent p {
+  font-weight: 200;
+}
+
+footer .information .recent .media {
+  margin-bottom: 20px;
+}
+
+footer .information .recent .media .media-body {
+  font-size: 12px;
+  font-family: Lato;
+  color: #666666;
+}
+
+footer .information .tag ul li {
+  padding: 10px;
+  background-color: #272727;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-family: lato;
+  font-weight: 300;
+}
+
+footer .information .gallery ul li {
+  margin-bottom: 5px;
+}
+
+footer .connect ul {
+  text-align: right;
+  padding-bottom: 10px;
+}
+
+footer .connect ul li {
+  width: 6.1%;
+}
+
+footer .connect ul li a {
+  font-size: 20px;
+  color: #a9a9a9;
+}
+
+footer .connect h4 {
+  padding-top: 10px;
+}
+
+footer .copyright {
+  font-size: 16px;
+  background-color: #222;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+@media screen and (max-width: 1024px) {
+  .more .text p:after, .more .text p:before {
+    width: 35%;
+    height: 1px;
+    background-color: #cccccc;
+    content: " ";
+    display: inline-block;
+    margin: 5px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .more .text {
+    text-align: center;
+  }
+  .more .text p:after, .more .text p:before {
+    display: none;
+  }
+  .caption {
+    width: 100% !important;
+  }
+  .about .number span {
+    font-size: 80px !important;
+  }
+  .sing_up, .acti {
+    clear: both;
+    width: 100% !important;
+  }
+  .services .more .text {
+    text-align: center;
+  }
+  .services .more .text p:after, .services .more .text p:before {
+    display: none;
+  }
+  .contact .send {
+    width: 80% !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  header .short_description h1 {
+    padding: 0;
+  }
+  footer .connect ul {
+    text-align: left !important;
+  }
+  footer .connect ul li {
+    width: 18% !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header .short_description h1 {
+    font-size: 30px;
+  }
+  .carousel-caption h1 {
+    font-size: 30px;
+  }
+  .carousel-caption h3 {
+    font-size: 20px;
+  }
+  .carousel-caption button {
+    font-size: 20px !important;
+  }
+  .carousel-caption .bold {
+    font-size: 40px !important;
+  }
+  .carousel-caption .address {
+    font-size: 30px !important;
+  }
+  .carousel-caption .caption {
+    width: 100% !important;
+  }
+  .carousel-caption .caption ul li {
+    font-size: 16px !important;
+    display: block !important;
+  }
+  .carousel-caption .caption ul .call:after {
+    display: none !important;
+  }
+  .pricing .sing_up .price, .pricing .acti .price {
+    padding-top: 50px;
+  }
+  .pricing .sing_up .price h2, .pricing .acti .price h2 {
+    margin-top: 55px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .carousel-caption .caption ul {
+    margin-top: 25px;
+  }
+}
+
+.portfolio .list .current1 {
+  padding: 15px 0;
+}
+
+.portfolio .list .current1 .hover1 {
+  top: 15px;
+  bottom: 15px;
+}
+
+.portfolio .load_all {
+  text-align: center;
+  margin: 40px auto 100px auto;
+}
+
+.portfolio .load_all button {
+  background-color: #ff9933;
+  color: #fff;
+  font-size: 24px;
+  font-family: Lato;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+
+.portfolio #image-portfolio .carousel-item {
+  height: 352px;
+}
+
+.portfolio #image-portfolio .carousel-item button {
+  font-size: 24px;
+  background-color: #ff9933;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+}
+
+.portfolio #image-portfolio .carousel-item button .fa {
+  color: #fff;
+  font-size: 24px;
+}

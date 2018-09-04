@@ -22,7 +22,7 @@
 	// Navigation
 	
 	.navbar-collapse{
-		height: 500px;
+		
 	}
 	// end Navigation
 	// about Section
@@ -56,6 +56,13 @@
 	// end contact
 }
 @media screen and (max-width: 767px) {
+	header {
+		.short_description{
+			h1{
+				padding: 0;
+			}
+		}
+	}
 	footer{
 		.connect{
 			ul{
@@ -69,11 +76,20 @@
 	}
 	
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 680px) {
 	
+}
+@media screen and (max-width: 480px) {
+	header {
+		.short_description{
+			h1{
+				font-size: 30px;
+			}
+		}
+	}
 	.carousel-caption{
 		h1{
-			font-size: 24px;
+			font-size: 30px;
 		}
 		h3{
 			font-size: 20px;
@@ -121,4 +137,4 @@
 			}
 		}
 	}
-
+}

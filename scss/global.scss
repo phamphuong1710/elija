@@ -27,7 +27,9 @@ h2,h3{
 	font-family: $font-title;
 }
 
-
+.navbar{
+	padding: 0 1em;
+}
 .slug{
 	margin-bottom: 80px;
 	position: relative;
@@ -38,6 +40,10 @@ h2,h3{
 		span{
 			color: $oranges;
 		}
+	}
+	.sub{
+		font-weight: 400;
+		font-family: $font-content;
 	}
 }
 .content{
