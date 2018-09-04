@@ -3,7 +3,7 @@ body{
 	position: relative;
 }
 #navbar{
-	background-color: $white;
+	background-color: $white!important;
 	z-index: 1;
 }
 .sticky{
@@ -11,8 +11,8 @@ body{
 	top:0;
 	width: 100%;
 }
-.sticky + .about,.sticky + .team,.sticky + .services,.sticky + .portfolio,.sticky + .pricing, .sticky + .contact,  {
-  padding-top: 180px!important;
+.sticky + .about{
+  padding-top: 180px;
 }
  
 p{
@@ -26,17 +26,8 @@ h2,h3{
 .title{
 	font-family: $font-title;
 }
-.actives a{
-	color: $oranges!important;
-}
-.actives:after{
-	content:"";
-	width: 100%;
-	height: 2px;
-	background-color: $oranges;
-	display: block;
-	margin-top: 23px;
-}
+
+
 .slug{
 	margin-bottom: 80px;
 	position: relative;
@@ -142,4 +133,14 @@ h2,h3{
 		}
 	}
 	
+}
+.tooltip-inner{
+	background-color: #ddd;
+	border-radius: 0px;
+}
+.tooltip.bs-tooltip-auto[x-placement^=bottom] .arrow::before, .tooltip.bs-tooltip-bottom .arrow::before {
+    margin-left: -3px;
+    content: "";
+    border-width: 0 5px 5px;
+    border-bottom-color: #ddd;
 }

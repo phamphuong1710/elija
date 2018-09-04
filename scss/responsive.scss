@@ -20,13 +20,9 @@
 		width: 100%!important;
 	}
 	// Navigation
-	.navbar-nav{
-		display: block!important;
-		
-	}
+	
 	.navbar-collapse{
-		height: 200px!important;
-		overflow: scroll;
+		height: 500px;
 	}
 	// end Navigation
 	// about Section
@@ -43,6 +39,14 @@
 			width: 100%!important;
 		}
 	// end pricing
+	.services .more{
+		.text{
+			text-align: center;
+			p:after,p:before{
+				display: none;
+			}
+		}
+	}
 	// contact
 	.contact{
 		.send{
@@ -57,7 +61,7 @@
 			ul{
 				text-align: left!important;
 				li{
-					width: 19%!important;
+					width: 18%!important;
 				}
 			}
 		}
@@ -117,4 +121,4 @@
 			}
 		}
 	}
-}
+

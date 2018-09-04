@@ -27,7 +27,7 @@
 				<h1>WE’RE ELIJAH. WE CREATE <span>AMAZING</span> WORDPRESS THEMES</h1>
 			</div>
 		</div>
-		<div class="btn">
+		<div class="btn" id="btn">
 			<a href="#about">
 				<i class="fa fa-angle-down"></i>
 			</a>
@@ -36,21 +36,21 @@
 	<!-- End header -->
 
 	<!-- Navigation -->
-	<nav class="navbar navbar-expand-lg " id="navbar">
+	<nav class="navbar navbar-expand-lg bg-light navbar-light " id="navbar">
 		
 		<div class="container">
 			<div class="navbar-header logo">
 				<a class="title " href="#">ELIJAH</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					
-				    <span class="navbar-toggler-icon"><i class="fa fa-align-justify"></i></span>
+				    <span class="navbar-toggler-icon"></i></span>
 				 </button>
 			</div>
 				
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav mr-auto group">
-					<li class="nav-item actives">
-						<a class="nav-link" href="#">HOME</a>
+					<li class="nav-item " >
+						<a class="nav-link active" href="#" id="home">HOME</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link js-scroll-trigger" href="#about">ABOUT</a>
@@ -347,23 +347,23 @@
 					<h1 class="title">SOME AMAZING CLIENTS WE’RE GLAD TO WORK WITH</h1>
 					<p>Morbi eget quam at diam auctor laoreet. Curabitur ut turpis elit. Aliquam hendrerit luctus placerat. Suspendisse ut elementum ipsum, et suscipit est. Quisque congue tempor tortor id posuere. Donec viverra sed felis ut vulputate. Mauris vel fermentum lacus, et volutpat turpis.</p>
 					<ul>
-						<li>
-							<a href="#"><img src="image/ubuntu.png" data-toggle="tooltip" title="ubuntu"></a>
+						<li >
+							<a href="#"><img src="image/ubuntu.png" data-toggle="tooltip" title="Ubuntu" data-placement="bottom"></a>
 						</li>
-						<li>
-							<a href="#"><img src="image/linux.png" data-toggle="tooltip" title="ubuntu"></a>
+						<li >
+							<a href="#"><img src="image/linux.png" data-toggle="tooltip" title="Linux" data-placement="bottom"> </a>
 						</li>
-						<li>
-							<a href="#"><img src="image/clound.png" data-toggle="tooltip" title="ubuntu"></a>
+						<li >
+							<a href="#"><img src="image/clound.png" data-toggle="tooltip" title="Linux" data-placement="bottom"></a>
 						</li>
-						<li>
-							<a href="#"><img src="image/common.png" data-toggle="tooltip" title="ubuntu"></a>
+						<li id="common">
+							<a href="#"><img src="image/common.png" data-toggle="tooltip" title="Linux" data-placement="bottom"></a>
 						</li>
-						<li>
-							<a href="#"><img src="image/nick.png" data-toggle="tooltip" title="ubuntu"></a>
+						<li id="nick">
+							<a href="#"><img src="image/nick.png" data-toggle="tooltip" title="Linux" data-placement="bottom"></a>
 						</li>
-						<li>
-							<a href="#"><img src="image/dreamwork.png" data-toggle="tooltip" title="ubuntu"></a>
+						<li id="dreamwork">
+							<a href="#"><img src="image/dreamwork.png" data-toggle="tooltip" title="Linux" data-placement="bottom"></a>
 						</li>
 					</ul>
 				</div>
@@ -474,7 +474,7 @@
 				</div>
 				<div class="more">
 					<div class="text">
-						<p>WHAT CLIENTS SAY ABOUT US</p>
+						<p>WHAT CLIENT SAY ABOUT US</p>
 					</div>
 				</div>
 				<div class="say">
@@ -602,7 +602,7 @@
 								<img src="image/image1.png" alt="1" class="image">
 								<div class="hover">
 									<div class="text">
-										<h4>MAURIS ALIQUET SAPIEN</h4>
+										<a href="#"><h4>MAURIS ALIQUET SAPIEN</h4></a>
 										<p>Web Design / Photography</p>
 									</div>
 								</div>
@@ -889,14 +889,6 @@
 					</div>
 					<div class="col-md-3 recent">
 						<h5 class="title">RECENT POSTS</h5>
-						<!-- <div class="media">
-							<img class="d-flex align-self-center mr-3" src="image/1.png" alt="Generic placeholder image">
-							<div class="media-body">
-								<h5 class="mt-0">Center-aligned media</h5>
-								<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-								<p class="mb-0">Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-							</div>
-						</div> -->
 						<ul class="list-unstyled">
 							<li class="media">
 								<img src="image/recent1.png" class="mr-3">
@@ -986,7 +978,7 @@
 					<div class="col-md-11">
 						<p>&copy 2014 Elijah. All Rights Reserved. Designed by phonhay</p>
 					</div>
-					<div class="col-md-1">
+					<div class="col-md-1" id="top">
 						<a href="#about">TOP <i class="fa fa-angle-up"></i></a>
 					</div>
 				</div>
@@ -996,96 +988,11 @@
 	<!-- End footer -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-  	<script src="bootstrap/js/bootstrap.min.js"></script>
-  	<!-- <script src="bootstrap/js/scrolling-nav.js"></script> -->
-
+  	
+  	<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
   	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
-  	<script>
-		var $grid = $('.list').isotope({
-
-		  itemSelector: '.element-item',
-		  layoutMode: 'fitRows',
-		});
-			$('#filters').on( 'click', 'button', function() {
-			  var filterValue = $( this ).attr('data-filter');
-			  $grid.isotope({ filter: filterValue });
-			});
-			$('.button-group').each( function( i, buttonGroup ) {
-			  var $buttonGroup = $( buttonGroup );
-			  $buttonGroup.on( 'click', 'button', function() {
-			    $buttonGroup.find('.is-checked').removeClass('is-checked');
-			    $( this ).addClass('is-checked');
-			  });
-			});
-				
-	</script>
-	<script>
-		$('.group').each( function( i, buttonGroup ) {
-			  var $buttonGroup = $( buttonGroup );
-			  $buttonGroup.on( 'click', 'li', function(e) {
-			    $buttonGroup.find('.actives').removeClass('actives');
-			    $( this ).addClass('actives');
-			  });
-			});
-	</script>
-	<script>
-		window.onscroll =function(){ fixMenu()} ;
-		var navbar= document.getElementById('navbar');
-		var sticky =navbar.offsetTop;
-		function fixMenu(){
-			if(window.pageYOffset >= sticky){
-				navbar.classList.add("sticky")
-			}
-			else{
-				navbar.classList.remove("sticky");
-			}
-		}
-		
-	</script>
-	<script>
-		$(document).ready(function(){
-			$('body').scrollspy({target:".navbar", offset:50});
-			$('#navbarSupportedContent a').on("click",function(event){
-				if(this.hash !==""){
-					event.preventDefault();
-					var hash = this.hash;
-					$('html, body').animate({
-						scrollTop:$(hash).offset().top
-					},800,function(){
-						window.location.hash=hash;
-					});
-				}
-			});
-		});
-	</script>
-<!-- 	<script>
-		$(document).ready(function(){
-		  // Add scrollspy to <body>
-		  $('body').scrollspy({target: ".navbar", offset: 50});   
-
-		  // Add smooth scrolling on all links inside the navbar
-		  $("#navbarSupportedContent a").on('click', function(event) {
-		    // Make sure this.hash has a value before overriding default behavior
-		    if (this.hash !== "") {
-		      // Prevent default anchor click behavior
-		      event.preventDefault();
-
-		      // Store hash
-		      var hash = this.hash;
-
-		      // Using jQuery's animate() method to add smooth page scroll
-		      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-		      $('html, body').animate({
-		        scrollTop: $(hash).offset().top
-		      }, 800, function(){
-		   
-		        // Add hash (#) to URL when done scrolling (default click behavior)
-		        window.location.hash = hash;
-		      });
-		    }  // End if
-		  });
-		});
-</script> -->
+  	<script src="js/elija.js"></script>
 </body>
 </html>
 <!-- flex-row-reverse -->
