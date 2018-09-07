@@ -34,7 +34,7 @@ function fixMenu(){
 }
 //  Add smooth scrolling
 $(document).ready(function(){
-	// add scroll navbar
+	// navbar
 	$('body').scrollspy({target:".navbar", offset:50});
 	$('#navbarSupportedContent a').on("click",function(event){
 		if(this.hash !==""){
@@ -47,7 +47,7 @@ $(document).ready(function(){
 			});
 		}
 	});
-	// Add scrolly header
+	//  header
 	$('body').scrollspy({target:".bnt", offset:50});
 	$('#btn a').on("click",function(event){
 		if(this.hash !==""){
@@ -60,7 +60,7 @@ $(document).ready(function(){
 			});
 		}
 	});
-	// add scrolly Botton
+	//  Botton
 	$('body').scrollspy({target:".copyright", offset:50});
 	$('#top a').on("click",function(event){
 		if(this.hash !==""){
@@ -78,3 +78,11 @@ $(document).ready(function(){
 $(document).ready(function(){
 	$('[data-toggle="tooltip"]').tooltip()
 })
+// 
+$('#pricing').each( function( i, pricing ) {
+  var $pricing = $( pricing );
+  $pricing.on( 'click', '.sing_up', function() {
+    $pricing.find('.acti').removeClass('acti');
+    $( this ).addClass('acti');
+  });
+});

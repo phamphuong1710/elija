@@ -34,6 +34,20 @@ h2,h3{
 	margin-bottom: 80px;
 	position: relative;
 	text-align: center;
+	.name-menu{
+		width: 270px;
+		margin: 0 auto;
+		position: relative;
+		text-align: center;
+		.slug-name{
+			position: absolute;
+			font-size: 60px;
+			width: 270px;
+			top: 38px;
+			color: #fff;
+			font-family: $font-title;
+		}
+	}
 	h2{
 		font-weight: 400;
 		margin: 40px 5%;
@@ -64,10 +78,6 @@ h2,h3{
 	.text{
 		
 		color: $gray3;
-		p:after,p:before{
-			@include before_after(38%);
-		}
-		
 	}
 }	
 

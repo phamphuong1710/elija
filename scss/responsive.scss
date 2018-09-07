@@ -1,35 +1,72 @@
 @media screen and(max-width:1024px) {
-	.more{
-		.text{
-			p:after,p:before{
-				@include before_after(35%);
+	.about{
+		.content{
+			.more{
+				.text{
+					p:after,p:before{
+						@include before_after(39%);
+					}
+				}
 			}
 		}
+		
 	}
+	.team{
+		.content{
+			.more{
+				.text{
+					p:after,p:before{
+						@include before_after(37.9%);
+					}
+				}
+			}
+		}
+		
+	}
+	.services{
+		.contetn{
+			.more{
+				.text{
+					p:after,p:before{
+						@include before_after(35%);
+					}
+				}
+			}
+		}
+		
+	}
+	
 }
 @media screen and (max-width: 980px) {
-	.more{
-		.text{
-			text-align: center;
-			p:after,p:before{
-				display: none;
+	.team{
+		.content{
+			.carousel-caption{
+				width: auto;
+			}
+		}
+	}  
+	.about,.team,.services{
+		.content{
+			.more{
+				.text{
+					text-align: center;
+					p:after,p:before{
+						display: none;
+					}
+				}
 			}
 		}
 	}
 	.caption{
 		width: 100%!important;
 	}
-	// Navigation
-	
-	.navbar-collapse{
-		
-	}
-	// end Navigation
-	// about Section
-	.about{
-		.number{
-			span{
-				font-size: 80px!important;
+	.services{
+		.say{
+			.info{
+				.name{
+					float: left;
+					width: 100%;
+				}
 			}
 		}
 	}
@@ -55,35 +92,23 @@
 	}
 	// end contact
 }
+@media only screen and (max-width: 980px) and (min-width: 780px){
+	.services{
+		.say{
+			.info{
+				.name{
+					float: left;
+					width: 100%;
+				}
+			}
+		}
+	}
+}
 @media screen and (max-width: 767px) {
 	header {
 		.short_description{
 			h1{
 				padding: 0;
-			}
-		}
-	}
-	footer{
-		.connect{
-			ul{
-				text-align: left!important;
-				li{
-					width: 18%!important;
-				}
-			}
-		}
-		
-	}
-	
-}
-@media screen and (max-width: 680px) {
-	
-}
-@media screen and (max-width: 480px) {
-	header {
-		.short_description{
-			h1{
-				font-size: 30px;
 			}
 		}
 	}
@@ -117,6 +142,57 @@
 			}
 		}
 	}
+	.services{
+		.say{
+			.info{
+				.name{
+					float: left;
+					width: 45%;
+				}
+			}
+		}
+	}
+	footer{
+		.connect{
+			ul{
+				text-align: left!important;
+				li{
+					width: 18%!important;
+				}
+			}
+		}
+		
+	}
+	
+}
+@media screen and (max-width: 680px) {
+	
+}
+@media screen and (max-width: 480px) {
+	header {
+		.short_description{
+			h1{
+				font-size: 30px;
+			}
+		}
+	}
+	.about {
+		.content {
+			.slide{
+				.carousel-caption{
+					width: auto;
+					top:40px;
+				}
+			}
+		}
+	}
+	.services,.portfolio{
+		.slide{
+			.carousel-caption{
+				top:.5rem;
+			}
+		}
+	}
 	.pricing{
 		.sing_up,.acti{
 			.price{
@@ -130,10 +206,32 @@
 	}
 }
 @media screen and (max-width: 320px) {
+	header{
+		.btn-icon{
+			top:560px;
+		}
+	}
 	.carousel-caption{
 		.caption{
 			ul{
 				margin-top: 25px;
+			}
+		}
+	}
+	.services, .portfolio{
+		.slide{
+			.carousel-caption{
+				top:16%;
+				h1{
+					font-size: 24px;
+				}
+			}
+		}
+	}
+	.pricing{
+		.slide{
+			.carousel-caption{
+				width: auto;
 			}
 		}
 	}

@@ -16,7 +16,13 @@
 				
 			}
 		}
-		
+		.more{
+			.text{
+				p:after,p:before{
+					@include before_after(40.9%);
+				}
+			}
+		}
 		.progress{
 			height: 40px!important;
 			background-color: $gray2!important;
@@ -89,6 +95,13 @@
 .team{
 	.content{
 		@include content_bg();
+		.more{
+			.text{
+				p:after,p:before{
+					@include before_after(39.9%);
+				}
+			}
+		}
 		.card{
 			margin-top: 60px;
 			.profile{
@@ -221,7 +234,7 @@
 	.more{
 		.text{
 			p:after,p:before{
-				@include before_after(37%);
+				@include before_after(39.3%);
 			}
 		}
 	}
@@ -309,13 +322,14 @@
 		margin-bottom: 40px;
 		text-align: center;
 		width: 100%;
-		.button{	background-color: $oranges;
+		.button{	
+			background-color: $oranges;
 			color: $white;
 			font-size: 24px;
 			font-family: $font-content;
-			padding: 5px 20px;
+			padding: 11px 20px;
 			border: none;
-			border-radius: 20px;
+			border-radius: 25px;
 			margin-right: 20px;
 			margin-bottom: 20px;
 			font-weight: 300;
@@ -328,10 +342,13 @@
 			width: 100%;
 			height: 268px;
 		}
-		.col-md-3{
-			padding-right:0!important;
-			padding-left:0!important;
+		.gird{
+			.col-md-3{
+				padding-right:0!important;
+				padding-left:0!important;
+			}
 		}
+		
 		.current{
 			position: relative;
 			height: 268px;
