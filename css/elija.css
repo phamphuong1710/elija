@@ -705,6 +705,10 @@ nav ul li button {
   background-color: #ff9933;
 }
 
+.about .content .progress .progress-bar .bar {
+  padding-top: 15px;
+}
+
 .about .content .progress .progress-bar .left {
   float: left;
   padding-left: 20px;
@@ -1009,6 +1013,8 @@ nav ul li button {
   color: #fff;
   padding: 10px 20px;
   border: none;
+  -webkit-box-shadow: 1px 3px 1px #d8852a;
+  box-shadow: 1px 3px 1px #d8852a;
 }
 
 .services .slide .carousel-caption button .fa {
@@ -1038,6 +1044,8 @@ nav ul li button {
   margin-right: 20px;
   margin-bottom: 20px;
   font-weight: 300;
+  -webkit-box-shadow: 1px 3px 1px #d8852a;
+  box-shadow: 1px 3px 1px #d8852a;
 }
 
 .portfolio .list img {
@@ -1277,6 +1285,8 @@ nav ul li button {
   color: #fff;
   font-family: Oswald;
   font-weight: 300px;
+  -webkit-box-shadow: 1px 3px 1px #d8852a;
+  box-shadow: 1px 3px 1px #d8852a;
 }
 
 footer {
@@ -1533,12 +1543,14 @@ footer .copyright {
   color: #fff;
   font-size: 24px;
   font-family: Lato;
-  padding: 5px 20px;
+  padding: 11px 20px;
   border: none;
-  border-radius: 20px;
+  border-radius: 25px;
   margin-right: 20px;
   margin-bottom: 20px;
   font-weight: 300;
+  -webkit-box-shadow: 1px 3px 1px #d8852a;
+  box-shadow: 1px 3px 1px #d8852a;
 }
 
 .portfolio #image-portfolio .carousel-item {
@@ -1551,6 +1563,8 @@ footer .copyright {
   color: #fff;
   padding: 10px 20px;
   border: none;
+  -webkit-box-shadow: 1px 3px 1px #d8852a;
+  box-shadow: 1px 3px 1px #d8852a;
 }
 
 .portfolio #image-portfolio .carousel-item button .fa {
@@ -1642,4 +1656,6 @@ footer .copyright {
   width: 170px;
   color: #fff;
   margin-top: 30px;
+  -webkit-box-shadow: 1px 3px 1px #d8852a;
+  box-shadow: 1px 3px 1px #d8852a;
 }

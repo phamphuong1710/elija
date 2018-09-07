@@ -30,6 +30,9 @@
 			margin-bottom: 20px;
 			.progress-bar{
 				background-color: $oranges;
+				.bar{
+					padding-top: 15px;
+				}
 				.left{
 					float: left;
 					padding-left: 20px;
@@ -301,6 +304,8 @@
 				color: $white;
 				padding: 10px 20px;
 				border: none;
+				box-shadow: 1px 3px 1px #d8852a;
+
 				.fa{
 					color: $white;
 					font-size: 24px;
@@ -333,6 +338,7 @@
 			margin-right: 20px;
 			margin-bottom: 20px;
 			font-weight: 300;
+			box-shadow: 1px 3px 1px #d8852a;
 		}
 		
 	}
@@ -452,6 +458,7 @@
 				padding: 10px 30px;
 				color: $white;
 				font-size: 18px;
+
 				i{
 					padding-right: 10px;
 				}
@@ -547,6 +554,8 @@
 					color: $white;
 					font-family: $font-title;
 					font-weight: 300px;
+					box-shadow: 1px 3px 1px #d8852a;
+
 
 				}
 			}
