@@ -38,6 +38,17 @@
 	
 }
 @media screen and (max-width: 980px) {
+	nav{
+		ul{
+			li{
+				height: auto;
+			}
+		}
+	}
+	.carousel-caption{
+		left: 5%;
+		right: 5%;
+	}
 	.team{
 		.content{
 			.carousel-caption{
@@ -176,32 +187,13 @@
 			}
 		}
 	}
-	.about {
-		.content {
-			.slide{
-				.carousel-caption{
-					width: auto;
-					top:40px;
-				}
+	
+	.contact{
+		.send{
+			width:95%!important;
+			form{
+				width: 80%!important;
 			}
-		}
-	}
-	.services,.portfolio{
-		.slide{
-			.carousel-caption{
-				top:.5rem;
-			}
-		}
-	}
-	.pricing{
-		.sing_up,.acti{
-			.price{
-				padding-top:50px;
-				h2{
-					margin-top: 55px;
-				}
-			}
-			
 		}
 	}
 }
@@ -209,30 +201,6 @@
 	header{
 		.btn-icon{
 			top:560px;
-		}
-	}
-	.carousel-caption{
-		.caption{
-			ul{
-				margin-top: 25px;
-			}
-		}
-	}
-	.services, .portfolio{
-		.slide{
-			.carousel-caption{
-				top:16%;
-				h1{
-					font-size: 24px;
-				}
-			}
-		}
-	}
-	.pricing{
-		.slide{
-			.carousel-caption{
-				width: auto;
-			}
 		}
 	}
 }

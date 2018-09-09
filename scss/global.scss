@@ -14,7 +14,6 @@ body{
 .sticky + .about{
   padding-top: 180px;
 }
- 
 p{
 	font-size: 16px;
 	font-family: $font-content, light;
@@ -62,28 +61,44 @@ h2,h3{
 }
 .content{
 	position: relative;
+	background-color: $gray1;
 	.img{
-		text-align: center;
+		position: relative;
+		width: 50px;
+		height: 40px;
+		margin: 0 auto;
 	}
 }
 .team,.services,.portfolio,.pricing,.contact{
 	padding-top: 100px;
-	.content{
-		@include content_bg();
-	}
 }
 .more{
 	margin-top: 70px;
 	width: 100%;
+	text-align: center;
 	.text{
-		
+		line-height: 0.5;
+		margin: 0 auto;
 		color: $gray3;
 	}
-}	
 
+}	
+.img{
+	
+}
+.img:after{
+	content:"";
+	position: absolute;
+	top:0;
+	border-width: 25px;
+    border-style: solid;
+    border-color: $white transparent transparent transparent;
+}
 .slide{
 	.carousel-caption{
 		font-family: $font-title;
+		right: 5%;
+		left: 5%;
 		.fa{
 			font-size: 36px;
 			color: $oranges;
@@ -104,12 +119,6 @@ h2,h3{
 		}
 		h1,h3{
 			font-weight: 300;
-		}
-	}
-	.carousel-item{
-		
-		img{
-			height: 100%;
 		}
 	}
 }

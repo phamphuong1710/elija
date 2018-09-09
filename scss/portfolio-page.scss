@@ -7,6 +7,10 @@
 				@extend .hover;
 				top:15px;
 				bottom: 15px;
+				.text{
+					margin-top: 75px;
+				}
+				
 			}
 		}
 		
@@ -15,7 +19,7 @@
 		text-align: center;
 		margin: 40px auto 100px auto;
 		button{
-			background-color: $oranges;
+			background-color: $background-button;
 			color: $white;
 			font-size: 24px;
 			font-family: $font-content;
@@ -25,7 +29,7 @@
 			margin-right: 20px;
 			margin-bottom: 20px;
 			font-weight: 300;
-			box-shadow: 1px 3px 1px #d8852a;
+			box-shadow: 1px 3px #d8852a;
 		}
 	}
 	#image-portfolio{
@@ -34,11 +38,12 @@
 		
 			button{
 				font-size: 24px;
-				background-color: $oranges;
+				background-color: $background-button;
 				color: $white;
 				padding: 10px 20px;
 				border: none;
-				box-shadow: 1px 3px 1px #d8852a;
+				box-shadow: 1px 3px #d8852a;
+				font-weight: 300;
 				.fa{
 					color: $white;
 					font-size: 24px;
@@ -48,6 +53,10 @@
 	}
 	.carousel-caption{
 		top:15%;
+		.caption{
+			padding:0 13%;
+		
+		}
 	}
 }
 	

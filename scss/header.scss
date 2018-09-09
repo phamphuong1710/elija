@@ -1,6 +1,8 @@
 // Header
 header{
 	background-image: url(../image/headbg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
 	height: 660px;
 	position: relative;
 	color: $white;
@@ -31,7 +33,7 @@ header{
 		  }
 		}
 	.btn-icon {
-	  font-size: 36px;
+	  font-size: 30px;
 	  text-align: center;
 	  position: absolute;
 	  top: 524.006px;

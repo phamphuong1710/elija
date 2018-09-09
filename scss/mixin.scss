@@ -12,8 +12,16 @@
 	 display: inline-block;
 	 margin: 5px;
 }
-@mixin content_bg(){
-	background-image: url(../image/bgcontent.png);
-	background-repeat: no-repeat ;
-	background-color: $gray1;
+@mixin slide($url,$height){
+	background-image: url($url);
+    height: $height;
+    color: white;
+    background-size: cover;
+    font-family: $font-title;
+}
+@mixin caption($width,$padding){
+	width: $width;
+	margin: 0 auto;
+	text-align: center;
+    padding:$padding 0;
 }

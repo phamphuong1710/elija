@@ -70,8 +70,8 @@
 					<li class="nav-item">
 						<a class="nav-link js-scroll-trigger" href="#contact">CONTACT</a>
 					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="width: 70px">
+					<li class="nav-item dropdown page">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
 						PAGE 
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -81,9 +81,9 @@
 							<a class="dropdown-item" href="#">Something else here</a>
 						</div>
 					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#" style="width: 85px">
-							BLOG <i class="fa fa-external-link" style="font-size: 14px"></i>
+					<li class="nav-item blog">
+						<a class="nav-link" href="#" >
+							BLOG <i class="fa fa-external-link"></i>
 						</a>
 					</li>
 					<li class="nav-item">
@@ -187,7 +187,7 @@
 					<div class="element-item transition web brand col-md-3" data-category="transition">
 						<div class="current1">
 							<img src="image/s1.jpg" alt="1" class="image">
-							<div class="hover1">
+							<div class="hover2">
 								<div class="text">
 									<a href="#"><h4>MAURIS ALIQUET SAPIEN</h4></a>
 									<p>Web Design / Photography</p>
@@ -197,8 +197,8 @@
 					</div>
 					<div class="element-item transition brand col-md-3" data-category="transition">
 						<div class="current1">
-							<img src="image/image1.png" alt="1" class="image">
-							<div class="hover1">
+							<img src="image/s2.jpg" alt="1" class="image">
+							<div class="hover2">
 								<div class="text">
 									<h4>MAURIS ALIQUET SAPIEN</h4>
 									<p>Web Design / Photography</p>
@@ -209,7 +209,7 @@
 					<div class="element-item transition web photography col-md-3" data-category="transition">
 						<div class="current1">
 							<img src="image/s3.jpg" alt="1" class="image">
-							<div class="hover1">
+							<div class="hover2">
 								<div class="text">
 									<h4>MAURIS ALIQUET SAPIEN</h4>
 									<p>Web Design / Photography</p>
@@ -220,7 +220,7 @@
 					<div class="element-item transition photography col-md-3" data-category="transition">
 						<div class="current1">
 							<img src="image/s4.jpg" alt="1" class="image">
-							<div class="hover1">
+							<div class="hover2">
 								<div class="text">
 									<h4>MAURIS ALIQUET SAPIEN</h4>
 									<p>Web Design / Photography</p>
@@ -241,13 +241,13 @@
 								<input type="text" name="name" placeholder="Name &#42">
 							</div>
 							<div class="col-md-4">
-								<input type="text" name="name" placeholder="Email &#42">
+								<input type="text" name="email" placeholder="Email &#42">
 							</div>
 							<div class="col-md-4">
-								<input type="text" name="name" placeholder="Subject">
+								<input type="text" name="subject" placeholder="Subject">
 							</div>
 						</div>
-						<textarea name="message" id="message" cols="30" rows="8">Mesage &#42</textarea>
+						<textarea name="message" id="message" cols="30" rows="8" placeholder="Mesage &#42"></textarea>
 						<button type="submit">SUBMIT</button>
 					</form>
 				</div>
@@ -261,12 +261,12 @@
 			<div class="information">
 				<div class="row">
 					<div class="col-md-3 us">
-						<h5 class="title">ABOUT US</h5>
-						<p style="padding: 20px 0;">Curabitur molestie molestie velit, et porta velit gravida eget. Sed fer-mentum, orci nec. </p>
+						<h4 class="title">ABOUT US</h4>
+						<p>Curabitur molestie molestie velit, et porta velit gravida eget. Sed fer-mentum, orci nec. </p>
 						<p>Ullamcorper accumsan, mauris leo malesuada metus, a iaculis turpis ligula at odio. Praesent consectetur pulvinar velit ut condimentum. Nullam fermentum tristique metus, in venenatis enim euismod sed.</p>
 					</div>
 					<div class="col-md-3 recent">
-						<h5 class="title">RECENT POSTS</h5>
+						<h4 class="title">RECENT POSTS</h4>
 						<ul class="list-unstyled">
 							<li class="media">
 								<img src="image/recent1.png" class="mr-3">
@@ -292,7 +292,7 @@
 						</ul>
 					</div>
 					<div class="col-md-3 tag">
-						<h5 class="title">TAGS</h5>
+						<h4 class="title">TAGS</h4>
 						<ul>
 							<li><a href="#">Modern</a></li>
 							<li><a href="#">Freya</a></li>
@@ -307,7 +307,7 @@
 						</ul>
 					</div>
 					<div class="col-md-3 gallery">
-						<h5 class="title">FLICKR GALLERY</h5>
+						<h4 class="title">FLICKR GALLERY</h4>
 						<ul>
 							<li><img src="image/g1.png"></li>
 							<li><img src="image/g2.png"></li>
@@ -337,7 +337,7 @@
 							<li><a href="#"><i class="fa fa-pinterest-square"></i></a></li>
 							<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
 							<li><a href="#"><i class="fa fa-github"></i></a></li>
-							<li><a href=""><i class="fa fa-bitbucket-square"></i></a></li>
+							<li><a href="#"><i class="fa fa-bitbucket-square"></i></a></li>
 							<li><a href="#"><i class="fa fa-camera-retro"></i></a></li>
 							<li><a href="#"><i class="fa fa-flickr"></i></a></li>
 							<li><a href="#"><i class="fa fa-vimeo-square"></i></a></li>
@@ -357,7 +357,7 @@
 						<p>&copy 2014 Elijah. All Rights Reserved. Designed by phonhay</p>
 					</div>
 					<div class="col-md-1" id="top">
-						<a href="#about">TOP <i class="fa fa-angle-up"></i></a>
+						<a href="#about">TOP <i class="fa fa-chevron-up"></i></a>
 					</div>
 				</div>
 			</div>
@@ -365,8 +365,7 @@
 	</footer>
 	<!-- End footer -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-  	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script> 	
   	<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 	<script src="bootstrap/js/bootstrap.min.js"></script>
   	<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
